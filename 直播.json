@@ -1,0 +1,123 @@
+	var rule = {
+            title: '综合直播',
+            host: 'https://buap.770xx.vip/',
+
+     hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});HOST = jsp.pdfh(html,".login-txt&&a&&href");log(HOST);',
+	
+	
+            
+          url:'fyclassfyfilter.html',
+	filterable:1,
+	filter_url:'{{fl.cateId}}/{{fl.class}}',
+	filter: {
+		
+"zb/?ju=yzzb/zb":[
+{
+"key":"class",
+"name":"直播列表",
+"value":[
+{"n":"亚洲","v":"gwzb"},
+{"n":"中","v":"cnzb"},
+{"n":"日","v":"ryzb"},
+{"n":"越","v":"yyzb"},
+{"n":"欧美","v":"omzb"},
+{"n":"俄","v":"egzb"},
+{"n":"乌","v":"wkl"}
+]
+}],
+"zb/?ju=xxj/zb":[
+{
+"key":"class",
+"name":"",
+"value":[
+{"n":"卡哇伊","v":"kwy"},
+{"n":"咪狐","v":"mh"},
+{"n":"蜜桃","v":"mt"},
+{"n":"妲己","v":"xdj"},
+{"n":"LOVE","v":"love"},
+{"n":"番茄","v":"fq"},
+{"n":"77","v":"qq"},
+{"n":"依依","v":"yy"},
+{"n":"日出","v":"rc"},
+{"n":"彩虹","v":"ch"},
+{"n":"久久","v":"jj"}
+]
+},
+{
+"key":"class",
+"name":"",
+"value":[
+{"n":"亚米","v":"ym"},
+{"n":"恋蝶","v":"ld"},
+{"n":"夜妖姬","v":"yyj"},
+{"n":"套路","v":"tl"},
+{"n":"樱花","v":"yh"},
+{"n":"享色","v":"xs"},
+{"n":"红浪漫","v":"hlm"},
+{"n":"金鱼","v":"jy"},
+{"n":"桃花","v":"th"},
+{"n":"花房","v":"hf"},
+{"n":"小仙女","v":"xxn"}
+]
+},
+{
+"key":"class",
+"name":"",
+"value":[
+{"n":"视觉","v":"sjx"},
+{"n":"小天","v":"xts"},
+{"n":"彩云","v":"cy"},
+{"n":"咪","v":"mm"},
+{"n":"娇","v":"jm"},
+{"n":"瓜播","v":"hg"},
+{"n":"趣播","v":"sq"},
+{"n":"糯米","v":"nm"},
+{"n":"蜜蜂","v":"xmf"},
+{"n":"红帽","v":"xhm"},
+{"n":"桃花","v":"thy"}
+]
+},
+{
+"key":"class",
+"name":"",
+"value":[
+{"n":"苦瓜","v":"kg"},
+{"n":"爱你","v":"aan"},
+{"n":"樱花雨","v":"yh"},
+{"n":"盘他","v":"pt"},
+{"n":"夜色","v":"ys"},
+{"n":"蝴蝶","v":"hd"},
+{"n":"天仙","v":"xtx"},
+{"n":"杏播","v":"xq"},
+{"n":"坏蛋","v":"xhd"},
+{"n":"飘雪","v":"px"},
+{"n":"樱桃","v":"yt"},
+{"n":"奥斯","v":"ask"},
+{"n":"兔女","v":"tnl"},
+{"n":"花仙","v":"hxz"},
+{"n":"小性","v":"xxg"}
+]
+}]
+},
+
+
+
+  searchUrl: '/sa**/page/fypage.html',
+            searchable: 2,
+            quickSearch: 0,
+            
+            headers: {
+                'User-Agent': 'MOBILE_UA',
+                 'Cookie': 'searchneed=ok',
+            },
+ class_name:'外国&中国',
+ class_url:'zb/?ju=yzzb/zb&zb/?ju=xxj/zb',
+            play_parse: true,
+            lazy: '',
+            limit: 6,
+            推荐: '*',
+            double: true, 
+            一级: '.list-videos&&.item;a&&title;img&&data-original;.duration&&Text;a&&href',
+            二级:'*',
+            搜索:'*',
+               }
