@@ -27,6 +27,26 @@
       "api": "https://gitee.com/jwlangzi/zonghe/raw/master/se/xmlive2vod.js",
       "ext": "https://gitee.com/jwlangzi/zonghe/raw/master/se/%E7%9B%B4%E6%92%AD%E5%A4%9A%E7%BA%BF%E8%B7%AF.json"
     },
+{
+      "key": "指南",
+      "name": "️导视",
+      "type": 4,
+      "api": "https://raw.githubusercontent.com/piaoyoulangzi/wuliao/main/nvyou.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://gitee.com/jwlangzi/zonghe/raw/master/se/jar/xc0126.jar"
+    },
+    {
+      "key": "个人收藏",
+      "name": "️个人收藏",
+      "type": 4,
+      "api": "https://raw.githubusercontent.com/piaoyoulangzi/wuliao/main/myself.json",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://gitee.com/jwlangzi/zonghe/raw/master/se/jar/xc0126.jar"
+    },
     {
       "key": "纤纤影视",
       "name": "纤纤影视",
@@ -1177,26 +1197,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "指南",
-      "name": "️指南",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/piaoyoulangzi/wuliao/main/nvyou.json",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar": "https://gitee.com/jwlangzi/zonghe/raw/master/se/jar/xc0126.jar"
-    },
-    {
-      "key": "个人收藏",
-      "name": "️个人收藏",
-      "type": 4,
-      "api": "https://raw.githubusercontent.com/piaoyoulangzi/wuliao/main/myself.json",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "jar": "https://gitee.com/jwlangzi/zonghe/raw/master/se/jar/xc0126.jar"
     },
     {
       "key": "全",
