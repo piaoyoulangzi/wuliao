@@ -47,6 +47,14 @@
       "filterable": 0,
       "jar": "https://gitee.com/jwlangzi/zonghe/raw/master/se/jar/xc0126.jar"
     },
+{
+            "key": "花都影视",
+            "name": "花都影视(切片)",
+            "type": 0,"style":{ "type":"rect", "ratio":1.485 },
+            "api": "https://hdys2.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1
+        }, 
     {
       "key": "纤纤影视",
       "name": "纤纤影视",
